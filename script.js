@@ -36,7 +36,7 @@ function addItem(item, index){
     
         deleteTask.addEventListener('click', () => { 
             tasksList.removeChild(listItem);
-            myTasks.splice(index,2);
+            myTasks.splice(index,1);
             localStorage.setItem("myTasks", JSON.stringify(myTasks));
         })
 }
