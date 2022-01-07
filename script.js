@@ -6,7 +6,7 @@ var myTasks=[];
 if(localStorage.getItem('myTasks') === null){
         myTasks = [];
 } else {
-    myTasks = JSON.parse(localStorage.getItem('myTasks')); 7
+    myTasks = JSON.parse(localStorage.getItem('myTasks')); 
     refreshList();
 }
 
